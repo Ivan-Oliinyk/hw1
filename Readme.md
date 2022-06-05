@@ -3,6 +3,6 @@
 ## Screenshots saved in
 
 ```
-git@github.com:Ivan-Oliinyk/hw1.git/screenshots
+https://github.com/Ivan-Oliinyk/hw1/tree/master/screenshots
 
 ```
