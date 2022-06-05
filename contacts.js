@@ -9,13 +9,7 @@ const writeFile = async (data, path = contactsPath) => {
 
 async function listContacts() {
   try {
-    const contacts = await fs.readFile(contactsPath, "utf8", (err, data) => {
-      if (err) {
-        throw err;
-      }
-
-      return data;
-    });
+    const contacts = await fs.readFile(contactsPath, "utf8");
 
     console.table(JSON.parse(contacts));
 
